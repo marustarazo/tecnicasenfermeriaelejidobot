@@ -1,0 +1,418 @@
+text|intent
+¿qué cantidad de agua es recomendable al día?|alimentos-liquidos
+¿Cuánto líquido necesito?|alimentos-liquidos
+Recomendaciones de agua|alimentos-liquidos
+3 litros de agua al día|alimentos-liquidos
+Combinación de frutas y verduras|alimentos-frutas-verduras
+Recomendaciones frutas y verduras|alimentos-frutas-verduras
+Recomendaciones zumos|alimentos-frutas-verduras
+Recomendaciones batidos|alimentos-frutas-verduras
+Recomendaciones smothie|alimentos-frutas-verduras
+En el caso de un batido ¿por qué hay frutas y verduras que no se pueden combinar?|alimentos-frutas-verduras
+¿Se recomiendan los zumos de frutas naturales?|alimentos-frutas-verduras
+¿cuánta verdura se recomienda?|alimentos-frutas-verduras
+¿cuánta fibra se recomienda al día?|alimentos-frutas-verduras
+¿qué aportan las frutas y verduras?|alimentos-frutas-verduras
+edulcorantes|endulzantes-sacarina
+sacarina|endulzantes-sacarina
+aspartamo|endulzantes-sacarina
+azúcar|endulzantes-sacarina
+miel|alimentos-edulcorantes
+estevia|endulzantes-sacarina
+sucralosa|endulzantes-sacarina
+glutamato|endulzantes-sacarina
+sirope|alimentos-edulcorantes
+azúcar moreno|alimentos-edulcorantes
+¿por qué no engordan los edulcorantes como la sacarina?|endulzantes-sacarina
+¿qué tipos de edulcorantes hay?|endulzantes-sacarina
+¿el glutamato es natural?|endulzantes-sacarina
+¿tienen las mismas calorías el azúcar que la miel?|alimentos-edulcorantes
+lactancia materna|alimentos-lactancia-materna
+¿qué debe comer un bebé?|alimentos-lactancia-materna
+¿qué alimento es mejor para los prematuros o bebés nacidos antes de tiempo?|alimentos-lactancia-materna
+calostro|calostro-leche
+declaración de Innocenti|alimentos-lactancia-materna
+lactancia|alimentos-lactancia-materna
+¿Por qué la lactancia es un factor para prevenir el cáncer de ovario?|alimentos-lactancia-materna
+¿qué ventajas tiene la lactancia materna?|alimentos-lactancia-materna
+¿Es suficiente la lactancia materna para cubrir las necesidades nutricionales del bebé?|alimentos-lactancia-materna
+¿Qué es el calostro?|alimentos-lactancia-materna
+¿Qué es la declaración de Innocenti?|alimentos-lactancia-materna
+¿qué es más recomendable lactancia materna exclusiva o mixta?|alimentos-lactancia-materna
+¿por qué se recomienda la lactancia materna?|alimentos-lactancia-materna
+¿Qué beneficios tiene la lactancia materna?|alimentos-lactancia-materna
+lactancia artificial|alimentos-lactancia-artificial
+leche comercial|alimentos-lactancia-artificial
+leche de continuación|alimentos-lactancia-artificial
+lactancia de 0 a 6 meses|alimentos-lactancia-artificial
+Leche de vaca en menores de 1 año|alimentos-lactancia-artificial
+¿qué tipos de leche se emplean en la lactancia artificial?|alimentos-lactancia-artificial
+¿qué son las leches comerciales para bebés?|alimentos-lactancia-artificial
+¿es mejor la lactancia materna o la artificial?|alimentos-lactancia-artificial
+¿Qué pasa si le damos a un bebé antes de tiempo (Edad menos de 1 año) leche de vaca?|alimentos-lactancia-artificial
+biberón fantasma|alimentos-bebe
+introducción alimentos|alimentos-bebe
+suplementos bebés|alimentos-bebe
+alergias bebés|alimentos-bebe
+intolerancias alimentarias bebés|intolerancia-alimentaria-bebe
+edad introducción de alimentos|alimentos-bebe
+¿Qué problemas tiene el biberón fantasma?|alimentos-bebe
+¿por qué se producen alergias alimentarias en los bebés?|alimentos-bebe
+¿por qué se hace lentamente la introducción de alimentos en bebés?|alimentos-bebe
+¿cómo se hace la introducción de alimentos en bebés?|alimentos-bebe
+Si durante los 6 primeros meses la leche materna es suficiente para cubrir los requerimientos nutricionales del bebé ¿por qué es aconsejable la administración de un suplemento vitamínico?|alimentos-bebe
+¿qué relación hay entre las alergias y niños no lactantes?|alimentos-bebe
+¿a qué edad se introduce leche de vaca y derivados lácteos?|alimentos-bebe
+¿a qué edad se introduce x alimento?|alimentos-bebe
+conservación leche materna|alimentos-conservar-leche-materna
+duración leche materna|alimentos-conservar-leche-materna
+extracción leche materna|alimentos-conservar-leche-materna
+¿Cuánto tiempo puede durar la leche que se saca de las mamas hasta que se le da al bebé?|alimentos-conservar-leche-materna
+¿se puede conservar la leche materna?|alimentos-conservar-leche-materna
+margarina|alimentos-margarina
+mantequilla|alimentos-margarina
+grasas saturadas|alimentos-margarina
+¿A qué corresponden las siglas AGS?|alimentos-margarina
+Ácidos grasos saturados|alimentos-margarina
+ácidos grasos hidrogenados|alimentos-margarina
+AGHidrogenados|alimentos-margarina
+¿Qué alimento tiene grasas hidrogenadas?|alimentos-margarina
+¿la margarina de origen vegetal tiene las mismas cualidades nutritivas que los aceites derivados?|alimentos-margarina
+¿Qué es mejor la mantequilla o la margarina?/ ¿por qué es mala la mantequilla?|alimentos-margarina
+¿es buena la margarina?|alimentos-margarina
+ayuno|aparato-digestivo-ayuno
+¿Qué efectos produce el ayuno?|aparato-digestivo-ayuno
+¿es recomendable el ayuno?|aparato-digestivo-ayuno
+¿Qué pasa si no como?|aparato-digestivo-ayuno
+bolo|aparato-digestivo-bolo
+boloalimenticio|aparato-digestivo-bolo
+absorción de nutrientes|aparato-digestivo-bolo
+¿dónde se da la absorción?|aparato-digestivo-bolo
+Tengo dudas sobre el proceso por el cual se forma el bolo alimenticio y cuando llega al intestino donde se produce la absorción?|aparato-digestivo-bolo
+¿dónde se forma el bolo alimenticio?|aparato-digestivo-bolo
+¿dónde se produce la absorción de nutrientes?|aparato-digestivo-bolo
+celulas alfa|aparato-digestivo-celulas-alfa
+celulas beta|aparato-digestivo-celulas-alfa
+células α|aparato-digestivo-celulas-alfa
+células β|aparato-digestivo-celulas-alfa
+glucagón|aparato-digestivo-celulas-alfa
+insulina|aparato-digestivo-celulas-alfa
+¿Qué diferencia hay entre célula Alfa y beta?|aparato-digestivo-celulas-alfa
+¿qué células secretan glucagón?|aparato-digestivo-celulas-alfa
+¿qué células secretan insulina?|aparato-digestivo-celulas-alfa
+aparato digestivo|aparato-digestivo-funciones
+funciones|aparato-digestivo-funciones
+ingestión|aparato-digestivo-funciones
+secreción|aparato-digestivo-funciones
+mezclado|aparato-digestivo-funciones
+propulsión|aparato-digestivo-funciones
+digestión|aparato-digestivo-funciones
+absorción|aparato-digestivo-funciones
+defecación|aparato-digestivo-funciones
+¿Cuáles son las funciones del aparato digestivo? |aparato-digestivo-funciones
+¿en qué consiste la ingestión?|aparato-digestivo-funciones
+¿en qué consiste la secreción?|aparato-digestivo-funciones
+¿en qué consiste la mezclado?|aparato-digestivo-funciones
+¿en qué consiste la propulsión?|aparato-digestivo-funciones
+¿en qué consiste la digestión?|aparato-digestivo-funciones
+¿en qué consiste la absorción?|aparato-digestivo-funciones
+¿en qué consiste la defecación?|aparato-digestivo-funciones
+aparato digestivo|aparato-digestivo-organos
+boca|aparato-digestivo-organos
+faringe|aparato-digestivo-organos
+esófago|aparato-digestivo-organos
+estómago|aparato-digestivo-organos
+intestino|aparato-digestivo-organos
+intestino delgado|aparato-digestivo-organos
+intestino grueso|aparato-digestivo-organos
+lengua|aparato-digestivo-organos
+dientes|aparato-digestivo-organos
+saliva|aparato-digestivo-organos
+hígado|aparato-digestivo-organos
+vesícula biliar|aparato-digestivo-organos
+páncreas|aparato-digestivo-organos
+¿Qué incluye el aparato digestivo?|aparato-digestivo-organos
+en qué aparato está  la boca|aparato-digestivo-organos
+en qué aparato se incluye la faringe|aparato-digestivo-organos
+en qué aparato se incluye el esófago|aparato-digestivo-organos
+en qué aparato se incluye el estómago|aparato-digestivo-organos
+en qué aparato se incluye el intestino|aparato-digestivo-organos
+en qué aparato se incluye el intestino delgado|aparato-digestivo-organos
+en qué aparato se incluye el intestino grueso|aparato-digestivo-organos
+en qué aparato se incluyen los dientes|aparato-digestivo-organos
+qué aparato segrega saliva|aparato-digestivo-organos
+en qué aparato se incluye el hígado|aparato-digestivo-organos
+en qué aparato se incluye la vesícula biliar|aparato-digestivo-organos
+en qué aparato se incluye el páncreas|aparato-digestivo-organos
+fases de la digestión|aparato-digestivo-fases
+regulación de la digestión|aparato-digestivo-fases
+regulación de la secreción gástrica|aparato-digestivo-fases
+¿qué sistemas regulan el funcionamiento del estómago?|aparato-digestivo-fases
+¿Cómo se regula la secreción y motilidad gástrica?|aparato-digestivo-fases
+¿Qué fases se dan para regular la digestión estomacal?|aparato-digestivo-fases
+factor intrínseco|aparato-digestivo-factor-intrinseco
+absorción vitamina B12|aparato-digestivo-factor-intrinseco
+absorción B12|aparato-digestivo-factor-intrinseco
+carencias veganos|aparato-digestivo-factor-intrinseco
+carencias nutricionales veganos|aparato-digestivo-factor-intrinseco
+suplementación veganos|aparato-digestivo-factor-intrinseco
+¿qué es factor intrínseco?|aparato-digestivo-factor-intrinseco
+¿cómo se absorbe la vitamina B12?|aparato-digestivo-factor-intrinseco
+¿Qué le puede pasar a un Vegano al no ingerir demasiado alimento?|aparato-digestivo-factor-intrinseco
+Si eres vegetariano, ¿qué nutrientes podrían faltar en tu dieta?|aparato-digestivo-factor-intrinseco
+flexura hepática|digestivo-flexura-hepática
+flexura cólica derecha|digestivo-flexura-hepática
+¿qué es la flexura hepática?|digestivo-flexura-hepática
+heces|aparato-digestivo-heces
+cáncer de colon|aparato-digestivo-heces
+color heces|aparato-digestivo-heces
+Hola, yo quería preguntar sobre el color de las heces, es decir, ¿cuáles son los colores normales y cuáles los que muestran alguna patología en el organismo? Gracias y un saludo.|aparato-digestivo-heces
+¿en qué consiste el estudio de las heces?|aparato-digestivo-heces
+¿cómo se diagnostica el cáncer de colon?|aparato-digestivo-heces
+estudio heces|aparato-digestivo-heces
+prevención cáncer de colon|aparato-digestivo-heces
+hilio hepático|digestivo-hileo-hepatico
+vascularización hepática|digestivo-hileo-hepatico
+depresión en hígado|digestivo-hileo-hepatico
+¿qué es hilio hepático?|digestivo-hileo-hepatico
+¿Por dónde pasa la vascularización hepática?|digestivo-hileo-hepatico
+depresión hepática|digestivo-hileo-hepatico
+ileocecal|valvula-ileocecal
+válvula ileocecal|valvula-ileocecal
+retorno del quilo|valvula-ileocecal
+¿qué es ileocecal?|valvula-ileocecal
+ ¿Qué función tiene el íleocecal?|valvula-ileocecal
+microvellosidades|microvellosidades-intestinales
+microvellosidades intestinales|microvellosidades-intestinales
+ ¿Qué función tiene el íleocecal?|microvellosidades-intestinales
+¿para qué sirven las microvellosidades?|microvellosidades-intestinales
+¿qué son las microvellosidades intestinales?|microvellosidades-intestinales
+¿dónde están las microvellosidades?|microvellosidades-intestinales
+páncreas|glandula-pancreas
+glándula|glandula-pancreas
+exocrino|glandula-pancreas
+endocrino|glandula-pancreas
+órgano digestivo|glandula-pancreas
+¿el páncreas es un órgano digestivo?|glandula-pancreas
+¿el páncreas es endocrino o exocrino?|glandula-pancreas
+Diferencia entre glándula y órgano digestivos|glandula-pancreas
+¿Podría dar un ejemplo de glándula y órgano digestivos?|glandula-pancreas
+diferencia vesícula biliar e hígado|aparato-digestivo-vesicula-higado
+producción de bilis|aparato-digestivo-vesicula-higado
+funciones hígado|aparato-digestivo-vesicula-higado
+funciones vesícula biliar|aparato-digestivo-vesicula-higado
+funciones hígado y vesícula biliar|aparato-digestivo-vesicula-higado
+bilirrubina|aparato-digestivo-vesicula-higado
+Diferencia entre la vesícula biliar y el hígado|aparato-digestivo-vesicula-higado
+¿quién es el encargado de producir bilis?|aparato-digestivo-vesicula-higado
+¿Cuáles son las funciones del hígado? ¿Y de la vesícula biliar?|aparato-digestivo-vesicula-higado
+¿Cualés son las funciones del hígado?|aparato-digestivo-vesicula-higado
+¿Qué hace el hígado?|aparato-digestivo-vesicula-higado
+¿Cuáles son las funciones de la vesícula biliar?|aparato-digestivo-vesicula-higado
+Qué hace la vesícula biliar|aparato-digestivo-vesicula-higado
+¿Qué es el hígado?|aparato-digestivo-vesicula-higado
+¿Qué es la vesícula biliar?|aparato-digestivo-vesicula-higado
+suplemetos deportivos|dieta-equilibrada-suplementos
+creatina|dieta-equilibrada-suplementos
+suplementos deportistas|dieta-equilibrada-suplementos
+ayuda termogénica|dieta-equilibrada-suplementos
+pastillas adelgazar|dieta-equilibrada-suplementos
+pastillas coger masa muscular|dieta-equilibrada-suplementos
+suplementación|dieta-equilibrada-suplementos
+¿Es aconsejable tomar suplementos de creatina haciendo o no deporte?|dieta-equilibrada-suplementos
+¿Es recomendable tomar suplementos dietéticos?|dieta-equilibrada-suplementos
+En una dieta equilibrada ¿hay que tomar pastillas o suplementos?|dieta-equilibrada-suplementos
+¿para perder o ganar peso es necesario tomar suplementos dietéticos?|dieta-equilibrada-suplementos
+proteína y músculo|dieta-equilibrada-proteinas
+desarrollo muscular|dieta-equilibrada-proteinas
+desarrollo músculo|dieta-equilibrada-proteinas
+tolerancia proteína|dieta-equilibrada-proteinas
+necesidades proteicas|dieta-equilibrada-proteinas
+Dentro de una dieta equilibrada ¿cuáles son las recomendaciones de proteínas?|dieta-equilibrada-proteinas
+efectos secundarios alta dosis proteica|dieta-equilibrada-proteinas
+dieta hiperproteica|hiperproteica-hipoproteica
+salud y proteína|dieta-equilibrada-proteinas
+¿La proteína es uno de los nutrientes que más ayuda al crecimiento del músculo? |dieta-equilibrada-proteinas
+a la hora de desarrollar músculo a través del deporte, 2- ¿se necesita tomar una mayor dosis de proteína? |dieta-equilibrada-proteinas
+hipoproteico|hiperproteica-hipoproteica
+glúcidos|glucidos-hidratos
+hidratos de carbono|glucidos-hidratos
+carbohidratos|glucidos-hidratos
+obesidad|dieta-equilibrada-sobrepeso
+engordar|dieta-equilibrada-sobrepeso
+subir peso|dieta-equilibrada-sobrepeso
+diabetes|dieta-equilibrada-sobrepeso
+¿por qué se produce un aumento de peso debido a un consumo excesivo de glúcidos?|dieta-equilibrada-sobrepeso
+¿por qué se engorda?|dieta-equilibrada-sobrepeso
+¿qué factores producen obesidad?|dieta-equilibrada-sobrepeso
+¿qué consecuencias tiene un consumo elevado de glúcidos o hidratos de carbono?|dieta-equilibrada-sobrepeso
+dieta hiperglucídica|dieta-hiperglucidica
+dieta alta en hidratos de carbono|dieta-equilibrada-sobrepeso
+dieta equilibrada|dieta-equilibrada
+valor calórico total|dieta-equilibrada-general
+porcentajes dieta|dieta-equilibrada-general
+enfermedad cardiovascular|cardiovascular-corazon
+ECV|cardiovascular-corazon
+recomendaciones dietéticas|dieta-equilibrada-general
+necesidades dietéticas|dieta-equilibrada-general
+porcentajes nutrientes|dieta-equilibrada-general
+¿qué porcentajes de macronutrientes se aconsejan para llevar una dieta equilibrada?|dieta-equilibrada-general
+porcentajes macronutrientes|dieta-equilibrada-general
+VCT|dieta-equilibrada-general
+hipercolesterolemia|dieta-equilibrada-hipercolesterolemia
+colesterol alto|dieta-equilibrada-hipercolesterolemia
+subida de colesterol|dieta-equilibrada-hipercolesterolemia
+niveles de colesterol normales|dieta-equilibrada-hipercolesterolemia
+dieta para colesterol|dieta-equilibrada-hipercolesterolemia
+El exceso de consumo de proteínas aumenta el colesterol y de lípidos también aumenta el colesterol y además suele producir obesidad, ¿entonces por qué es recomendable consumir un 10-20% de proteínas y un 25-35%de lípidos si los lípidos conllevan a una obesidad y a una hipercolesterolemia?|dieta-equilibrada-hipercolesterolemia
+¿Cómo evitar la hipercolesterolemia?|dieta-equilibrada-hipercolesterolemia
+cómo reducir el colesterol en la dieta|dieta-equilibrada-hipercolesterolemia
+alimentación anorexia|dietoterapia-anorexia
+anorexia|dietoterapia-anorexia
+En anorexia ¿Es conveniente en aumentar la toma de vitaminas y minerales para la ayuda del fortalecimiento de los músculos?|dietoterapia-anorexia
+En anorexia ¿Es suficiente con tener una dieta equilibrada?|dietoterapia-anorexia
+¿Qué dieta se aconseja en anorexia?|dietoterapia-anorexia
+¿Qué es la anorexia?|dietoterapia-anorexia
+dieta para perder peso|dietoterapia-recomendacion
+adelgazar|dietoterapia-recomendacion
+dieta hipolípidica|hipolipidica-dieta
+bajar peso|dietoterapia-recomendacion
+recomendaciones adelgazar|dietoterapia-recomendacion
+¿qué es más recomendable para bajar de peso dieta hipocalórica o baja en grasa?|dietoterapia-recomendacion
+¿qué hay que hacer para adelgazar?|dietoterapia-recomendacion
+En un caso de obesidad aparte de la dieta hipolipídica se alterna con alguna otra dieta? O es suficiente con utilizar esa?|dietoterapia-recomendacion
+¿Por qué en la dieta de adelgazamiento puedes tomar un poco de aceite oliva virgen extra diario ya que tiene grasa insaturada y alto contenido calórico y los frutos secos no los debes de tomar, siendo también grasa insaturada?|dietoterapia-recomendacion
+pérdida de peso|dietoterapia-recomendacion
+dieta hipocalórica|dietoterapia-hipocalorica
+dieta astringente|dietoterapia-astringente
+diarrea|dietoterapia-astringente
+gastroenteritis|dietoterapia-astringente
+dieta pobre en residuos|dietoterapia-astringente
+dieta absoluta|dietoterapia-astringente
+suero oral|dietoterapia-astringente
+diarrea crónica|dietoterapia-astringente
+diarrea aguda|dietoterapia-astringente
+dieta basal|dietoterapia-basal
+¿qué es la dieta basal?|dietoterapia-basal
+¿qué tipo de dieta llevamos si no tenemos actividad y estamos en cama sin más enfermedad?|dietoterapia-basal
+dieta progresiva|dietoterapia-progresiva
+¿a qué se denomina dieta progresiva?|dietoterapia-progresiva
+¿qué es la dieta progresiva?|dietoterapia-progresiva
+falta de hierro|metabolismo-anemia
+anemia|metabolismo-anemia
+anemia ferropénica|metabolismo-anemia
+¿cuáles son las diferencias de falta de hierro y anemia en nuestro cuerpo? |metabolismo-anemia
+¿cuáles son los síntomas de falta de hierro y anemia en nuestro cuerpo? |metabolismo-anemia
+metabolismo|metabolismo-catabolismo-anabolismo
+anabolismo|metabolismo-catabolismo-anabolismo
+catabolismo|metabolismo-catabolismo-anabolismo
+Diferencia entre catabolismo y anabolismo|metabolismo-catabolismo-anabolismo
+¿Qué es el metabolismo?|metabolismo-catabolismo-anabolismo
+enfermedad peritoneal|enfermedad-peritoneal-peritonitis
+peritonitis|enfermedad-peritoneal-peritonitis
+¿qué es la enfermedad peritoneal?|enfermedad-peritoneal-peritonitis
+¿qué es la peritonitis?|enfermedad-peritoneal-peritonitis
+peritoneo|enfermedad-peritoneal-peritonitis
+afecciones peritoneo|enfermedad-peritoneal-peritonitis
+ictericia|ictericia-bilirrubina
+aumento bilirrubina|ictericia-bilirrubina
+coloración amarilla|ictericia-bilirrubina
+amarillento|ictericia-bilirrubina
+¿cómo podemos prevenir la ictericia?|ictericia-bilirrubina
+¿Qué es la ictericia?|ictericia-bilirrubina
+litiasis biliar|calculos-litiasis-biliar
+cálculos|calculos-litiasis-biliar
+piedras|calculos-litiasis-biliar
+obstrucción conductos biliares|calculos-litiasis-biliar
+piedras vesícula biliar|calculos-litiasis-biliar
+arenilla vesícula|calculos-litiasis-biliar
+¿Qué es la litiasis biliar?|calculos-litiasis-biliar
+¿Qué produce la litiasis biliar?|calculos-litiasis-biliar
+colesterol|nutrientes-colesterol
+huevos|nutrientes-colesterol
+dieta colesterol|nutrientes-colesterol
+alimentos colesterol|nutrientes-colesterol
+¿dónde se encuentra el colesterol? |nutrientes-colesterol
+¿qué alimentos hay que evitar si tenemos hipercolesterolemia?|nutrientes-colesterol
+¿cuántos huevos se pueden comer a la semana sin riesgo de que suba el colesterol?|nutrientes-colesterol
+huevos y colesterol|nutrientes-colesterol
+cocina y colesterol|nutrientes-colesterol
+nutrientes|nutrientes-principios-inmediatos
+principios inmediatos|nutrientes-principios-inmediatos
+macro-nutrientes|nutrientes-principios-inmediatos
+micro-nutrientes|nutrientes-principios-inmediatos
+¿En qué alimentos están los glúcidos?|nutrientes-principios-inmediatos
+proteinas|nutrientes-proteinas
+lipidos|nutrientes-lípidos
+minerales|nutrientes-principios-inmediatos
+vitaminas|nutrientes-principios-inmediatos
+fuentes alimentarias|nutrientes-principios-inmediatos
+¿qué son los principios inmediatos? |nutrientes-principios-inmediatos
+¿cuáles son las fuentes alimentarias de glúcidos?|nutrientes-principios-inmediatos
+¿según Atwater cuántas kcal tienen los lípidos?|nutrientes-principios-inmediatos
+¿cuáles son las principales fuentes? |nutrientes-principios-inmediatos
+¿qué alimentos son ricos en proteínas? |nutrientes-principios-inmediatos
+¿en qué alimentos encontramos más vitaminas y minerales?|nutrientes-principios-inmediatos
+¿qué equivalencia energética tienen los macronutrientes? |nutrientes-principios-inmediatos
+equivalencia energética|nutrientes-principios-inmediatos
+¿según Atwater cuántas kcal tienen los glúcidos?|nutrientes-principios-inmediatos
+¿según Atwater cuántas kcal tienen los hidratos de carbono?|nutrientes-principios-inmediatos
+Según Atwater cuántas Kcal tienen las proteínas|nutrientes-principios-inmediatos
+número de Atwater|nutrientes-principios-inmediatos
+Kcal|nutrientes-principios-inmediatos
+kilocalorías|nutrientes-principios-inmediatos
+¡Hola!¡Buenos días!|Greeting
+¡Hola!|Greeting
+¡Buenas tardes!|Greeting
+¡Hola!|Greeting
+Ey|Greeting
+¿Qué pasa?|Greeting
+¡Buenos días!|Greeting
+Tarde|Greeting
+¡Ey! Hola|Greeting
+¿Estás aquí?|Greeting
+¿Estás ahí?|Greeting
+¿Hay alguien?|Greeting
+¡Buenas noches!|Greeting
+:q|None
+ç|None
+a|None
+asd|None
+ui|None
+y|None
+f|None
+fsodg|None
+[a [b|None
+poo|None
+daadsdas|None
+gracias|Thanking
+gracias a ti|Thanking
+bien|Thanking
+qué bien|Thanking
+muy amable|Thanking
+fantastico, gracias|Thanking
+has sido de mucha utilidad, gracias|Thanking
+gracias por todo|Thanking
+gracias por tu ayuda|Thanking
+estoy muy agradecida|Thanking
+perfecto|Thanking
+cambie de idioma|SelectLanguage
+seleccione idioma|SelectLanguage
+sí|Confirm
+guay|Confirm
+conversación terminada|EndConversation
+te dejo|EndConversation
+adiós|EndConversation
+me voy|EndConversation
+paro la conversación|EndConversation
+fin del chat|EndConversation
+salgo|EndConversation
+sal del chat|EndConversation
+adiós robot|EndConversation
+nueva conversación|EndConversation
+me marcho|EndConversation
+abandono|EndConversation
+lo dejo|EndConversation
+terminado|EndConversation
+finalizado|EndConversation
+suena bien|Confirm

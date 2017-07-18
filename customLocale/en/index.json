@@ -1,0 +1,8 @@
+{
+    "intentnotfound": "I'm sorry I didn't understand. Could you please rephrase that? If you want me to search the web for you type search...",
+    "intentnotfound_no_message": "I'm sorry I didn't understand. Could you please rephrase that?",
+    "searchnotfound": "I'm sorry, I was not able to find what you were looking for: ",
+    "thanking": "Glad I could help",
+    "bye": "Ok… Goodbye.",
+    "hello": "Hello!"
+}

@@ -1,0 +1,2284 @@
+{
+  "intents": [
+    {
+      "name": "Confirm"
+    }, 
+    {
+      "name": "dietoterapia-basal"
+    }, 
+    {
+      "name": "metabolismo-anemia"
+    }, 
+    {
+      "name": "enfermedad-peritoneal-peritonitis"
+    }, 
+    {
+      "name": "EndConversation"
+    }, 
+    {
+      "name": "aparato-digestivo-organos"
+    }, 
+    {
+      "name": "aparato-digestivo-celulas-alfa"
+    }, 
+    {
+      "name": "Thanking"
+    }, 
+    {
+      "name": "aparato-digestivo-bolo"
+    }, 
+    {
+      "name": "ictericia-bilirrubina"
+    }, 
+    {
+      "name": "digestivo-flexura-hepática"
+    }, 
+    {
+      "name": "digestivo-hileo-hepatico"
+    }, 
+    {
+      "name": "glandula-pancreas"
+    }, 
+    {
+      "name": "alimentos-frutas-verduras"
+    }, 
+    {
+      "name": "hiperproteica-hipoproteica"
+    }, 
+    {
+      "name": "nutrientes-proteinas"
+    }, 
+    {
+      "name": "dieta-equilibrada-general"
+    }, 
+    {
+      "name": "endulzantes-sacarina"
+    }, 
+    {
+      "name": "dietoterapia-anorexia"
+    }, 
+    {
+      "name": "aparato-digestivo-ayuno"
+    }, 
+    {
+      "name": "alimentos-edulcorantes"
+    }, 
+    {
+      "name": "dietoterapia-recomendacion"
+    }, 
+    {
+      "name": "Intent"
+    }, 
+    {
+      "name": "glucidos-hidratos"
+    }, 
+    {
+      "name": "aparato-digestivo-heces"
+    }, 
+    {
+      "name": "nutrientes-lípidos"
+    }, 
+    {
+      "name": "dieta-equilibrada-proteinas"
+    }, 
+    {
+      "name": "alimentos-lactancia-materna"
+    }, 
+    {
+      "name": "Greeting"
+    }, 
+    {
+      "name": "dieta-equilibrada-hipercolesterolemia"
+    }, 
+    {
+      "name": "aparato-digestivo-factor-intrinseco"
+    }, 
+    {
+      "name": "None"
+    }, 
+    {
+      "name": "dietoterapia-hipocalorica"
+    }, 
+    {
+      "name": "hipolipidica-dieta"
+    }, 
+    {
+      "name": "dieta-equilibrada-suplementos"
+    }, 
+    {
+      "name": "aparato-digestivo-funciones"
+    }, 
+    {
+      "name": "aparato-digestivo-fases"
+    }, 
+    {
+      "name": "dieta-equilibrada"
+    }, 
+    {
+      "name": "microvellosidades-intestinales"
+    }, 
+    {
+      "name": "nutrientes-colesterol"
+    }, 
+    {
+      "name": "dietoterapia-astringente"
+    }, 
+    {
+      "name": "dieta-hiperglucidica"
+    }, 
+    {
+      "name": "intolerancia-alimentaria-bebe"
+    }, 
+    {
+      "name": "alimentos-liquidos"
+    }, 
+    {
+      "name": "dietoterapia-progresiva"
+    }, 
+    {
+      "name": "alimentos-bebe"
+    }, 
+    {
+      "name": "valvula-ileocecal"
+    }, 
+    {
+      "name": "nutrientes-principios-inmediatos"
+    }, 
+    {
+      "name": "alimentos-conservar-leche-materna"
+    }, 
+    {
+      "name": "metabolismo-catabolismo-anabolismo"
+    }, 
+    {
+      "name": "alimentos-margarina"
+    }, 
+    {
+      "name": "SelectLanguage"
+    }, 
+    {
+      "name": "cardiovascular-corazon"
+    }, 
+    {
+      "name": "calculos-litiasis-biliar"
+    }, 
+    {
+      "name": "calostro-leche"
+    }, 
+    {
+      "name": "aparato-digestivo-vesicula-higado"
+    }, 
+    {
+      "name": "alimentos-lactancia-artificial"
+    }, 
+    {
+      "name": "dieta-equilibrada-sobrepeso"
+    }
+  ], 
+  "name": "tecnicasenfermeriaelejidobot", 
+  "utterances": [
+    {
+      "text": "Pregunta", 
+      "intent": "Intent", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué cantidad de agua es recomendable al día?", 
+      "intent": "alimentos-liquidos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Cuánto líquido necesito?", 
+      "intent": "alimentos-liquidos", 
+      "entities": []
+    }, 
+    {
+      "text": "Recomendaciones de agua", 
+      "intent": "alimentos-liquidos", 
+      "entities": []
+    }, 
+    {
+      "text": "3 litros de agua al día", 
+      "intent": "alimentos-liquidos", 
+      "entities": []
+    }, 
+    {
+      "text": "Combinación de frutas y verduras", 
+      "intent": "alimentos-frutas-verduras", 
+      "entities": []
+    }, 
+    {
+      "text": "Recomendaciones frutas y verduras", 
+      "intent": "alimentos-frutas-verduras", 
+      "entities": []
+    }, 
+    {
+      "text": "Recomendaciones zumos", 
+      "intent": "alimentos-frutas-verduras", 
+      "entities": []
+    }, 
+    {
+      "text": "Recomendaciones batidos", 
+      "intent": "alimentos-frutas-verduras", 
+      "entities": []
+    }, 
+    {
+      "text": "Recomendaciones smothie", 
+      "intent": "alimentos-frutas-verduras", 
+      "entities": []
+    }, 
+    {
+      "text": "En el caso de un batido ¿por qué hay frutas y verduras que no se pueden combinar?", 
+      "intent": "alimentos-frutas-verduras", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Se recomiendan los zumos de frutas naturales?", 
+      "intent": "alimentos-frutas-verduras", 
+      "entities": []
+    }, 
+    {
+      "text": "¿cuánta verdura se recomienda?", 
+      "intent": "alimentos-frutas-verduras", 
+      "entities": []
+    }, 
+    {
+      "text": "¿cuánta fibra se recomienda al día?", 
+      "intent": "alimentos-frutas-verduras", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué aportan las frutas y verduras?", 
+      "intent": "alimentos-frutas-verduras", 
+      "entities": []
+    }, 
+    {
+      "text": "edulcorantes", 
+      "intent": "endulzantes-sacarina", 
+      "entities": []
+    }, 
+    {
+      "text": "sacarina", 
+      "intent": "endulzantes-sacarina", 
+      "entities": []
+    }, 
+    {
+      "text": "aspartamo", 
+      "intent": "endulzantes-sacarina", 
+      "entities": []
+    }, 
+    {
+      "text": "azúcar", 
+      "intent": "endulzantes-sacarina", 
+      "entities": []
+    }, 
+    {
+      "text": "miel", 
+      "intent": "alimentos-edulcorantes", 
+      "entities": []
+    }, 
+    {
+      "text": "estevia", 
+      "intent": "endulzantes-sacarina", 
+      "entities": []
+    }, 
+    {
+      "text": "sucralosa", 
+      "intent": "endulzantes-sacarina", 
+      "entities": []
+    }, 
+    {
+      "text": "glutamato", 
+      "intent": "endulzantes-sacarina", 
+      "entities": []
+    }, 
+    {
+      "text": "sirope", 
+      "intent": "alimentos-edulcorantes", 
+      "entities": []
+    }, 
+    {
+      "text": "azúcar moreno", 
+      "intent": "alimentos-edulcorantes", 
+      "entities": []
+    }, 
+    {
+      "text": "¿por qué no engordan los edulcorantes como la sacarina?", 
+      "intent": "endulzantes-sacarina", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué tipos de edulcorantes hay?", 
+      "intent": "endulzantes-sacarina", 
+      "entities": []
+    }, 
+    {
+      "text": "¿el glutamato es natural?", 
+      "intent": "endulzantes-sacarina", 
+      "entities": []
+    }, 
+    {
+      "text": "¿tienen las mismas calorías el azúcar que la miel?", 
+      "intent": "alimentos-edulcorantes", 
+      "entities": []
+    }, 
+    {
+      "text": "lactancia materna", 
+      "intent": "alimentos-lactancia-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué debe comer un bebé?", 
+      "intent": "alimentos-lactancia-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué alimento es mejor para los prematuros o bebés nacidos antes de tiempo?", 
+      "intent": "alimentos-lactancia-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "calostro", 
+      "intent": "calostro-leche", 
+      "entities": []
+    }, 
+    {
+      "text": "declaración de Innocenti", 
+      "intent": "alimentos-lactancia-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "lactancia", 
+      "intent": "alimentos-lactancia-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Por qué la lactancia es un factor para prevenir el cáncer de ovario?", 
+      "intent": "alimentos-lactancia-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué ventajas tiene la lactancia materna?", 
+      "intent": "alimentos-lactancia-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Es suficiente la lactancia materna para cubrir las necesidades nutricionales del bebé?", 
+      "intent": "alimentos-lactancia-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué es el calostro?", 
+      "intent": "alimentos-lactancia-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué es la declaración de Innocenti?", 
+      "intent": "alimentos-lactancia-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué es más recomendable lactancia materna exclusiva o mixta?", 
+      "intent": "alimentos-lactancia-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "¿por qué se recomienda la lactancia materna?", 
+      "intent": "alimentos-lactancia-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué beneficios tiene la lactancia materna?", 
+      "intent": "alimentos-lactancia-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "lactancia artificial", 
+      "intent": "alimentos-lactancia-artificial", 
+      "entities": []
+    }, 
+    {
+      "text": "leche comercial", 
+      "intent": "alimentos-lactancia-artificial", 
+      "entities": []
+    }, 
+    {
+      "text": "leche de continuación", 
+      "intent": "alimentos-lactancia-artificial", 
+      "entities": []
+    }, 
+    {
+      "text": "lactancia de 0 a 6 meses", 
+      "intent": "alimentos-lactancia-artificial", 
+      "entities": []
+    }, 
+    {
+      "text": "Leche de vaca en menores de 1 año", 
+      "intent": "alimentos-lactancia-artificial", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué tipos de leche se emplean en la lactancia artificial?", 
+      "intent": "alimentos-lactancia-artificial", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué son las leches comerciales para bebés?", 
+      "intent": "alimentos-lactancia-artificial", 
+      "entities": []
+    }, 
+    {
+      "text": "¿es mejor la lactancia materna o la artificial?", 
+      "intent": "alimentos-lactancia-artificial", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué pasa si le damos a un bebé antes de tiempo (Edad menos de 1 año) leche de vaca?", 
+      "intent": "alimentos-lactancia-artificial", 
+      "entities": []
+    }, 
+    {
+      "text": "biberón fantasma", 
+      "intent": "alimentos-bebe", 
+      "entities": []
+    }, 
+    {
+      "text": "introducción alimentos", 
+      "intent": "alimentos-bebe", 
+      "entities": []
+    }, 
+    {
+      "text": "suplementos bebés", 
+      "intent": "alimentos-bebe", 
+      "entities": []
+    }, 
+    {
+      "text": "alergias bebés", 
+      "intent": "alimentos-bebe", 
+      "entities": []
+    }, 
+    {
+      "text": "intolerancias alimentarias bebés", 
+      "intent": "intolerancia-alimentaria-bebe", 
+      "entities": []
+    }, 
+    {
+      "text": "edad introducción de alimentos", 
+      "intent": "alimentos-bebe", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué problemas tiene el biberón fantasma?", 
+      "intent": "alimentos-bebe", 
+      "entities": []
+    }, 
+    {
+      "text": "¿por qué se producen alergias alimentarias en los bebés?", 
+      "intent": "alimentos-bebe", 
+      "entities": []
+    }, 
+    {
+      "text": "¿por qué se hace lentamente la introducción de alimentos en bebés?", 
+      "intent": "alimentos-bebe", 
+      "entities": []
+    }, 
+    {
+      "text": "¿cómo se hace la introducción de alimentos en bebés?", 
+      "intent": "alimentos-bebe", 
+      "entities": []
+    }, 
+    {
+      "text": "Si durante los 6 primeros meses la leche materna es suficiente para cubrir los requerimientos nutricionales del bebé ¿por qué es aconsejable la administración de un suplemento vitamínico?", 
+      "intent": "alimentos-bebe", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué relación hay entre las alergias y niños no lactantes?", 
+      "intent": "alimentos-bebe", 
+      "entities": []
+    }, 
+    {
+      "text": "¿a qué edad se introduce leche de vaca y derivados lácteos?", 
+      "intent": "alimentos-bebe", 
+      "entities": []
+    }, 
+    {
+      "text": "¿a qué edad se introduce x alimento?", 
+      "intent": "alimentos-bebe", 
+      "entities": []
+    }, 
+    {
+      "text": "conservación leche materna", 
+      "intent": "alimentos-conservar-leche-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "duración leche materna", 
+      "intent": "alimentos-conservar-leche-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "extracción leche materna", 
+      "intent": "alimentos-conservar-leche-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Cuánto tiempo puede durar la leche que se saca de las mamas hasta que se le da al bebé?", 
+      "intent": "alimentos-conservar-leche-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "¿se puede conservar la leche materna?", 
+      "intent": "alimentos-conservar-leche-materna", 
+      "entities": []
+    }, 
+    {
+      "text": "margarina", 
+      "intent": "alimentos-margarina", 
+      "entities": []
+    }, 
+    {
+      "text": "mantequilla", 
+      "intent": "alimentos-margarina", 
+      "entities": []
+    }, 
+    {
+      "text": "grasas saturadas", 
+      "intent": "alimentos-margarina", 
+      "entities": []
+    }, 
+    {
+      "text": "¿A qué corresponden las siglas AGS?", 
+      "intent": "alimentos-margarina", 
+      "entities": []
+    }, 
+    {
+      "text": "Ácidos grasos saturados", 
+      "intent": "alimentos-margarina", 
+      "entities": []
+    }, 
+    {
+      "text": "ácidos grasos hidrogenados", 
+      "intent": "alimentos-margarina", 
+      "entities": []
+    }, 
+    {
+      "text": "AGHidrogenados", 
+      "intent": "alimentos-margarina", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué alimento tiene grasas hidrogenadas?", 
+      "intent": "alimentos-margarina", 
+      "entities": []
+    }, 
+    {
+      "text": "¿la margarina de origen vegetal tiene las mismas cualidades nutritivas que los aceites derivados?", 
+      "intent": "alimentos-margarina", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué es mejor la mantequilla o la margarina?/ ¿por qué es mala la mantequilla?", 
+      "intent": "alimentos-margarina", 
+      "entities": []
+    }, 
+    {
+      "text": "¿es buena la margarina?", 
+      "intent": "alimentos-margarina", 
+      "entities": []
+    }, 
+    {
+      "text": "ayuno", 
+      "intent": "aparato-digestivo-ayuno", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué efectos produce el ayuno?", 
+      "intent": "aparato-digestivo-ayuno", 
+      "entities": []
+    }, 
+    {
+      "text": "¿es recomendable el ayuno?", 
+      "intent": "aparato-digestivo-ayuno", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué pasa si no como?", 
+      "intent": "aparato-digestivo-ayuno", 
+      "entities": []
+    }, 
+    {
+      "text": "bolo", 
+      "intent": "aparato-digestivo-bolo", 
+      "entities": []
+    }, 
+    {
+      "text": "boloalimenticio", 
+      "intent": "aparato-digestivo-bolo", 
+      "entities": []
+    }, 
+    {
+      "text": "absorción de nutrientes", 
+      "intent": "aparato-digestivo-bolo", 
+      "entities": []
+    }, 
+    {
+      "text": "¿dónde se da la absorción?", 
+      "intent": "aparato-digestivo-bolo", 
+      "entities": []
+    }, 
+    {
+      "text": "Tengo dudas sobre el proceso por el cual se forma el bolo alimenticio y cuando llega al intestino donde se produce la absorción?", 
+      "intent": "aparato-digestivo-bolo", 
+      "entities": []
+    }, 
+    {
+      "text": "¿dónde se forma el bolo alimenticio?", 
+      "intent": "aparato-digestivo-bolo", 
+      "entities": []
+    }, 
+    {
+      "text": "¿dónde se produce la absorción de nutrientes?", 
+      "intent": "aparato-digestivo-bolo", 
+      "entities": []
+    }, 
+    {
+      "text": "celulas alfa", 
+      "intent": "aparato-digestivo-celulas-alfa", 
+      "entities": []
+    }, 
+    {
+      "text": "celulas beta", 
+      "intent": "aparato-digestivo-celulas-alfa", 
+      "entities": []
+    }, 
+    {
+      "text": "células α", 
+      "intent": "aparato-digestivo-celulas-alfa", 
+      "entities": []
+    }, 
+    {
+      "text": "células β", 
+      "intent": "aparato-digestivo-celulas-alfa", 
+      "entities": []
+    }, 
+    {
+      "text": "glucagón", 
+      "intent": "aparato-digestivo-celulas-alfa", 
+      "entities": []
+    }, 
+    {
+      "text": "insulina", 
+      "intent": "aparato-digestivo-celulas-alfa", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué diferencia hay entre célula Alfa y beta?", 
+      "intent": "aparato-digestivo-celulas-alfa", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué células secretan glucagón?", 
+      "intent": "aparato-digestivo-celulas-alfa", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué células secretan insulina?", 
+      "intent": "aparato-digestivo-celulas-alfa", 
+      "entities": []
+    }, 
+    {
+      "text": "aparato digestivo", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "funciones", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "ingestión", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "secreción", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "mezclado", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "propulsión", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "digestión", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "absorción", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "defecación", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Cuáles son las funciones del aparato digestivo? ", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "¿en qué consiste la ingestión?", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "¿en qué consiste la secreción?", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "¿en qué consiste la mezclado?", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "¿en qué consiste la propulsión?", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "¿en qué consiste la digestión?", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "¿en qué consiste la absorción?", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "¿en qué consiste la defecación?", 
+      "intent": "aparato-digestivo-funciones", 
+      "entities": []
+    }, 
+    {
+      "text": "aparato digestivo", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "boca", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "faringe", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "esófago", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "estómago", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "intestino", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "intestino delgado", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "intestino grueso", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "lengua", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "dientes", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "saliva", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "hígado", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "vesícula biliar", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "páncreas", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué incluye el aparato digestivo?", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "en qué aparato está  la boca", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "en qué aparato se incluye la faringe", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "en qué aparato se incluye el esófago", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "en qué aparato se incluye el estómago", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "en qué aparato se incluye el intestino", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "en qué aparato se incluye el intestino delgado", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "en qué aparato se incluye el intestino grueso", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "en qué aparato se incluyen los dientes", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "qué aparato segrega saliva", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "en qué aparato se incluye el hígado", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "en qué aparato se incluye la vesícula biliar", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "en qué aparato se incluye el páncreas", 
+      "intent": "aparato-digestivo-organos", 
+      "entities": []
+    }, 
+    {
+      "text": "fases de la digestión", 
+      "intent": "aparato-digestivo-fases", 
+      "entities": []
+    }, 
+    {
+      "text": "regulación de la digestión", 
+      "intent": "aparato-digestivo-fases", 
+      "entities": []
+    }, 
+    {
+      "text": "regulación de la secreción gástrica", 
+      "intent": "aparato-digestivo-fases", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué sistemas regulan el funcionamiento del estómago?", 
+      "intent": "aparato-digestivo-fases", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Cómo se regula la secreción y motilidad gástrica?", 
+      "intent": "aparato-digestivo-fases", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué fases se dan para regular la digestión estomacal?", 
+      "intent": "aparato-digestivo-fases", 
+      "entities": []
+    }, 
+    {
+      "text": "factor intrínseco", 
+      "intent": "aparato-digestivo-factor-intrinseco", 
+      "entities": []
+    }, 
+    {
+      "text": "absorción vitamina B12", 
+      "intent": "aparato-digestivo-factor-intrinseco", 
+      "entities": []
+    }, 
+    {
+      "text": "absorción B12", 
+      "intent": "aparato-digestivo-factor-intrinseco", 
+      "entities": []
+    }, 
+    {
+      "text": "carencias veganos", 
+      "intent": "aparato-digestivo-factor-intrinseco", 
+      "entities": []
+    }, 
+    {
+      "text": "carencias nutricionales veganos", 
+      "intent": "aparato-digestivo-factor-intrinseco", 
+      "entities": []
+    }, 
+    {
+      "text": "suplementación veganos", 
+      "intent": "aparato-digestivo-factor-intrinseco", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué es factor intrínseco?", 
+      "intent": "aparato-digestivo-factor-intrinseco", 
+      "entities": []
+    }, 
+    {
+      "text": "¿cómo se absorbe la vitamina B12?", 
+      "intent": "aparato-digestivo-factor-intrinseco", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué le puede pasar a un Vegano al no ingerir demasiado alimento?", 
+      "intent": "aparato-digestivo-factor-intrinseco", 
+      "entities": []
+    }, 
+    {
+      "text": "Si eres vegetariano, ¿qué nutrientes podrían faltar en tu dieta?", 
+      "intent": "aparato-digestivo-factor-intrinseco", 
+      "entities": []
+    }, 
+    {
+      "text": "flexura hepática", 
+      "intent": "digestivo-flexura-hepática", 
+      "entities": []
+    }, 
+    {
+      "text": "flexura cólica derecha", 
+      "intent": "digestivo-flexura-hepática", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué es la flexura hepática?", 
+      "intent": "digestivo-flexura-hepática", 
+      "entities": []
+    }, 
+    {
+      "text": "heces", 
+      "intent": "aparato-digestivo-heces", 
+      "entities": []
+    }, 
+    {
+      "text": "cáncer de colon", 
+      "intent": "aparato-digestivo-heces", 
+      "entities": []
+    }, 
+    {
+      "text": "color heces", 
+      "intent": "aparato-digestivo-heces", 
+      "entities": []
+    }, 
+    {
+      "text": "Hola, yo quería preguntar sobre el color de las heces, es decir, ¿cuáles son los colores normales y cuáles los que muestran alguna patología en el organismo? Gracias y un saludo.", 
+      "intent": "aparato-digestivo-heces", 
+      "entities": []
+    }, 
+    {
+      "text": "¿en qué consiste el estudio de las heces?", 
+      "intent": "aparato-digestivo-heces", 
+      "entities": []
+    }, 
+    {
+      "text": "¿cómo se diagnostica el cáncer de colon?", 
+      "intent": "aparato-digestivo-heces", 
+      "entities": []
+    }, 
+    {
+      "text": "estudio heces", 
+      "intent": "aparato-digestivo-heces", 
+      "entities": []
+    }, 
+    {
+      "text": "prevención cáncer de colon", 
+      "intent": "aparato-digestivo-heces", 
+      "entities": []
+    }, 
+    {
+      "text": "hilio hepático", 
+      "intent": "digestivo-hileo-hepatico", 
+      "entities": []
+    }, 
+    {
+      "text": "vascularización hepática", 
+      "intent": "digestivo-hileo-hepatico", 
+      "entities": []
+    }, 
+    {
+      "text": "depresión en hígado", 
+      "intent": "digestivo-hileo-hepatico", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué es hilio hepático?", 
+      "intent": "digestivo-hileo-hepatico", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Por dónde pasa la vascularización hepática?", 
+      "intent": "digestivo-hileo-hepatico", 
+      "entities": []
+    }, 
+    {
+      "text": "depresión hepática", 
+      "intent": "digestivo-hileo-hepatico", 
+      "entities": []
+    }, 
+    {
+      "text": "ileocecal", 
+      "intent": "valvula-ileocecal", 
+      "entities": []
+    }, 
+    {
+      "text": "válvula ileocecal", 
+      "intent": "valvula-ileocecal", 
+      "entities": []
+    }, 
+    {
+      "text": "retorno del quilo", 
+      "intent": "valvula-ileocecal", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué es ileocecal?", 
+      "intent": "valvula-ileocecal", 
+      "entities": []
+    }, 
+    {
+      "text": " ¿Qué función tiene el íleocecal?", 
+      "intent": "valvula-ileocecal", 
+      "entities": []
+    }, 
+    {
+      "text": "microvellosidades", 
+      "intent": "microvellosidades-intestinales", 
+      "entities": []
+    }, 
+    {
+      "text": "microvellosidades intestinales", 
+      "intent": "microvellosidades-intestinales", 
+      "entities": []
+    }, 
+    {
+      "text": " ¿Qué función tiene el íleocecal?", 
+      "intent": "microvellosidades-intestinales", 
+      "entities": []
+    }, 
+    {
+      "text": "¿para qué sirven las microvellosidades?", 
+      "intent": "microvellosidades-intestinales", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué son las microvellosidades intestinales?", 
+      "intent": "microvellosidades-intestinales", 
+      "entities": []
+    }, 
+    {
+      "text": "¿dónde están las microvellosidades?", 
+      "intent": "microvellosidades-intestinales", 
+      "entities": []
+    }, 
+    {
+      "text": "páncreas", 
+      "intent": "glandula-pancreas", 
+      "entities": []
+    }, 
+    {
+      "text": "glándula", 
+      "intent": "glandula-pancreas", 
+      "entities": []
+    }, 
+    {
+      "text": "exocrino", 
+      "intent": "glandula-pancreas", 
+      "entities": []
+    }, 
+    {
+      "text": "endocrino", 
+      "intent": "glandula-pancreas", 
+      "entities": []
+    }, 
+    {
+      "text": "órgano digestivo", 
+      "intent": "glandula-pancreas", 
+      "entities": []
+    }, 
+    {
+      "text": "¿el páncreas es un órgano digestivo?", 
+      "intent": "glandula-pancreas", 
+      "entities": []
+    }, 
+    {
+      "text": "¿el páncreas es endocrino o exocrino?", 
+      "intent": "glandula-pancreas", 
+      "entities": []
+    }, 
+    {
+      "text": "Diferencia entre glándula y órgano digestivos", 
+      "intent": "glandula-pancreas", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Podría dar un ejemplo de glándula y órgano digestivos?", 
+      "intent": "glandula-pancreas", 
+      "entities": []
+    }, 
+    {
+      "text": "diferencia vesícula biliar e hígado", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "producción de bilis", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "funciones hígado", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "funciones vesícula biliar", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "funciones hígado y vesícula biliar", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "bilirrubina", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "Diferencia entre la vesícula biliar y el hígado", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "¿quién es el encargado de producir bilis?", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Cuáles son las funciones del hígado? ¿Y de la vesícula biliar?", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Cualés son las funciones del hígado?", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué hace el hígado?", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Cuáles son las funciones de la vesícula biliar?", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "Qué hace la vesícula biliar", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué es el hígado?", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué es la vesícula biliar?", 
+      "intent": "aparato-digestivo-vesicula-higado", 
+      "entities": []
+    }, 
+    {
+      "text": "suplemetos deportivos", 
+      "intent": "dieta-equilibrada-suplementos", 
+      "entities": []
+    }, 
+    {
+      "text": "creatina", 
+      "intent": "dieta-equilibrada-suplementos", 
+      "entities": []
+    }, 
+    {
+      "text": "suplementos deportistas", 
+      "intent": "dieta-equilibrada-suplementos", 
+      "entities": []
+    }, 
+    {
+      "text": "ayuda termogénica", 
+      "intent": "dieta-equilibrada-suplementos", 
+      "entities": []
+    }, 
+    {
+      "text": "pastillas adelgazar", 
+      "intent": "dieta-equilibrada-suplementos", 
+      "entities": []
+    }, 
+    {
+      "text": "pastillas coger masa muscular", 
+      "intent": "dieta-equilibrada-suplementos", 
+      "entities": []
+    }, 
+    {
+      "text": "suplementación", 
+      "intent": "dieta-equilibrada-suplementos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Es aconsejable tomar suplementos de creatina haciendo o no deporte?", 
+      "intent": "dieta-equilibrada-suplementos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Es recomendable tomar suplementos dietéticos?", 
+      "intent": "dieta-equilibrada-suplementos", 
+      "entities": []
+    }, 
+    {
+      "text": "En una dieta equilibrada ¿hay que tomar pastillas o suplementos?", 
+      "intent": "dieta-equilibrada-suplementos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿para perder o ganar peso es necesario tomar suplementos dietéticos?", 
+      "intent": "dieta-equilibrada-suplementos", 
+      "entities": []
+    }, 
+    {
+      "text": "proteína y músculo", 
+      "intent": "dieta-equilibrada-proteinas", 
+      "entities": []
+    }, 
+    {
+      "text": "desarrollo muscular", 
+      "intent": "dieta-equilibrada-proteinas", 
+      "entities": []
+    }, 
+    {
+      "text": "desarrollo músculo", 
+      "intent": "dieta-equilibrada-proteinas", 
+      "entities": []
+    }, 
+    {
+      "text": "tolerancia proteína", 
+      "intent": "dieta-equilibrada-proteinas", 
+      "entities": []
+    }, 
+    {
+      "text": "necesidades proteicas", 
+      "intent": "dieta-equilibrada-proteinas", 
+      "entities": []
+    }, 
+    {
+      "text": "Dentro de una dieta equilibrada ¿cuáles son las recomendaciones de proteínas?", 
+      "intent": "dieta-equilibrada-proteinas", 
+      "entities": []
+    }, 
+    {
+      "text": "efectos secundarios alta dosis proteica", 
+      "intent": "dieta-equilibrada-proteinas", 
+      "entities": []
+    }, 
+    {
+      "text": "dieta hiperproteica", 
+      "intent": "hiperproteica-hipoproteica", 
+      "entities": []
+    }, 
+    {
+      "text": "salud y proteína", 
+      "intent": "dieta-equilibrada-proteinas", 
+      "entities": []
+    }, 
+    {
+      "text": "¿La proteína es uno de los nutrientes que más ayuda al crecimiento del músculo? ", 
+      "intent": "dieta-equilibrada-proteinas", 
+      "entities": []
+    }, 
+    {
+      "text": "a la hora de desarrollar músculo a través del deporte, 2- ¿se necesita tomar una mayor dosis de proteína? ", 
+      "intent": "dieta-equilibrada-proteinas", 
+      "entities": []
+    }, 
+    {
+      "text": "hipoproteico", 
+      "intent": "hiperproteica-hipoproteica", 
+      "entities": []
+    }, 
+    {
+      "text": "glúcidos", 
+      "intent": "glucidos-hidratos", 
+      "entities": []
+    }, 
+    {
+      "text": "hidratos de carbono", 
+      "intent": "glucidos-hidratos", 
+      "entities": []
+    }, 
+    {
+      "text": "carbohidratos", 
+      "intent": "glucidos-hidratos", 
+      "entities": []
+    }, 
+    {
+      "text": "obesidad", 
+      "intent": "dieta-equilibrada-sobrepeso", 
+      "entities": []
+    }, 
+    {
+      "text": "engordar", 
+      "intent": "dieta-equilibrada-sobrepeso", 
+      "entities": []
+    }, 
+    {
+      "text": "subir peso", 
+      "intent": "dieta-equilibrada-sobrepeso", 
+      "entities": []
+    }, 
+    {
+      "text": "diabetes", 
+      "intent": "dieta-equilibrada-sobrepeso", 
+      "entities": []
+    }, 
+    {
+      "text": "¿por qué se produce un aumento de peso debido a un consumo excesivo de glúcidos?", 
+      "intent": "dieta-equilibrada-sobrepeso", 
+      "entities": []
+    }, 
+    {
+      "text": "¿por qué se engorda?", 
+      "intent": "dieta-equilibrada-sobrepeso", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué factores producen obesidad?", 
+      "intent": "dieta-equilibrada-sobrepeso", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué consecuencias tiene un consumo elevado de glúcidos o hidratos de carbono?", 
+      "intent": "dieta-equilibrada-sobrepeso", 
+      "entities": []
+    }, 
+    {
+      "text": "dieta hiperglucídica", 
+      "intent": "dieta-hiperglucidica", 
+      "entities": []
+    }, 
+    {
+      "text": "dieta alta en hidratos de carbono", 
+      "intent": "dieta-equilibrada-sobrepeso", 
+      "entities": []
+    }, 
+    {
+      "text": "dieta equilibrada", 
+      "intent": "dieta-equilibrada", 
+      "entities": []
+    }, 
+    {
+      "text": "valor calórico total", 
+      "intent": "dieta-equilibrada-general", 
+      "entities": []
+    }, 
+    {
+      "text": "porcentajes dieta", 
+      "intent": "dieta-equilibrada-general", 
+      "entities": []
+    }, 
+    {
+      "text": "enfermedad cardiovascular", 
+      "intent": "cardiovascular-corazon", 
+      "entities": []
+    }, 
+    {
+      "text": "ECV", 
+      "intent": "cardiovascular-corazon", 
+      "entities": []
+    }, 
+    {
+      "text": "recomendaciones dietéticas", 
+      "intent": "dieta-equilibrada-general", 
+      "entities": []
+    }, 
+    {
+      "text": "necesidades dietéticas", 
+      "intent": "dieta-equilibrada-general", 
+      "entities": []
+    }, 
+    {
+      "text": "porcentajes nutrientes", 
+      "intent": "dieta-equilibrada-general", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué porcentajes de macronutrientes se aconsejan para llevar una dieta equilibrada?", 
+      "intent": "dieta-equilibrada-general", 
+      "entities": []
+    }, 
+    {
+      "text": "porcentajes macronutrientes", 
+      "intent": "dieta-equilibrada-general", 
+      "entities": []
+    }, 
+    {
+      "text": "VCT", 
+      "intent": "dieta-equilibrada-general", 
+      "entities": []
+    }, 
+    {
+      "text": "hipercolesterolemia", 
+      "intent": "dieta-equilibrada-hipercolesterolemia", 
+      "entities": []
+    }, 
+    {
+      "text": "colesterol alto", 
+      "intent": "dieta-equilibrada-hipercolesterolemia", 
+      "entities": []
+    }, 
+    {
+      "text": "subida de colesterol", 
+      "intent": "dieta-equilibrada-hipercolesterolemia", 
+      "entities": []
+    }, 
+    {
+      "text": "niveles de colesterol normales", 
+      "intent": "dieta-equilibrada-hipercolesterolemia", 
+      "entities": []
+    }, 
+    {
+      "text": "dieta para colesterol", 
+      "intent": "dieta-equilibrada-hipercolesterolemia", 
+      "entities": []
+    }, 
+    {
+      "text": "El exceso de consumo de proteínas aumenta el colesterol y de lípidos también aumenta el colesterol y además suele producir obesidad, ¿entonces por qué es recomendable consumir un 10-20% de proteínas y un 25-35%de lípidos si los lípidos conllevan a una obesidad y a una hipercolesterolemia?", 
+      "intent": "dieta-equilibrada-hipercolesterolemia", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Cómo evitar la hipercolesterolemia?", 
+      "intent": "dieta-equilibrada-hipercolesterolemia", 
+      "entities": []
+    }, 
+    {
+      "text": "cómo reducir el colesterol en la dieta", 
+      "intent": "dieta-equilibrada-hipercolesterolemia", 
+      "entities": []
+    }, 
+    {
+      "text": "alimentación anorexia", 
+      "intent": "dietoterapia-anorexia", 
+      "entities": []
+    }, 
+    {
+      "text": "anorexia", 
+      "intent": "dietoterapia-anorexia", 
+      "entities": []
+    }, 
+    {
+      "text": "En anorexia ¿Es conveniente en aumentar la toma de vitaminas y minerales para la ayuda del fortalecimiento de los músculos?", 
+      "intent": "dietoterapia-anorexia", 
+      "entities": []
+    }, 
+    {
+      "text": "En anorexia ¿Es suficiente con tener una dieta equilibrada?", 
+      "intent": "dietoterapia-anorexia", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué dieta se aconseja en anorexia?", 
+      "intent": "dietoterapia-anorexia", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué es la anorexia?", 
+      "intent": "dietoterapia-anorexia", 
+      "entities": []
+    }, 
+    {
+      "text": "dieta para perder peso", 
+      "intent": "dietoterapia-recomendacion", 
+      "entities": []
+    }, 
+    {
+      "text": "adelgazar", 
+      "intent": "dietoterapia-recomendacion", 
+      "entities": []
+    }, 
+    {
+      "text": "dieta hipolípidica", 
+      "intent": "hipolipidica-dieta", 
+      "entities": []
+    }, 
+    {
+      "text": "bajar peso", 
+      "intent": "dietoterapia-recomendacion", 
+      "entities": []
+    }, 
+    {
+      "text": "recomendaciones adelgazar", 
+      "intent": "dietoterapia-recomendacion", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué es más recomendable para bajar de peso dieta hipocalórica o baja en grasa?", 
+      "intent": "dietoterapia-recomendacion", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué hay que hacer para adelgazar?", 
+      "intent": "dietoterapia-recomendacion", 
+      "entities": []
+    }, 
+    {
+      "text": "En un caso de obesidad aparte de la dieta hipolipídica se alterna con alguna otra dieta? O es suficiente con utilizar esa?", 
+      "intent": "dietoterapia-recomendacion", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Por qué en la dieta de adelgazamiento puedes tomar un poco de aceite oliva virgen extra diario ya que tiene grasa insaturada y alto contenido calórico y los frutos secos no los debes de tomar, siendo también grasa insaturada?", 
+      "intent": "dietoterapia-recomendacion", 
+      "entities": []
+    }, 
+    {
+      "text": "pérdida de peso", 
+      "intent": "dietoterapia-recomendacion", 
+      "entities": []
+    }, 
+    {
+      "text": "dieta hipocalórica", 
+      "intent": "dietoterapia-hipocalorica", 
+      "entities": []
+    }, 
+    {
+      "text": "dieta astringente", 
+      "intent": "dietoterapia-astringente", 
+      "entities": []
+    }, 
+    {
+      "text": "diarrea", 
+      "intent": "dietoterapia-astringente", 
+      "entities": []
+    }, 
+    {
+      "text": "gastroenteritis", 
+      "intent": "dietoterapia-astringente", 
+      "entities": []
+    }, 
+    {
+      "text": "dieta pobre en residuos", 
+      "intent": "dietoterapia-astringente", 
+      "entities": []
+    }, 
+    {
+      "text": "dieta absoluta", 
+      "intent": "dietoterapia-astringente", 
+      "entities": []
+    }, 
+    {
+      "text": "suero oral", 
+      "intent": "dietoterapia-astringente", 
+      "entities": []
+    }, 
+    {
+      "text": "diarrea crónica", 
+      "intent": "dietoterapia-astringente", 
+      "entities": []
+    }, 
+    {
+      "text": "diarrea aguda", 
+      "intent": "dietoterapia-astringente", 
+      "entities": []
+    }, 
+    {
+      "text": "dieta basal", 
+      "intent": "dietoterapia-basal", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué es la dieta basal?", 
+      "intent": "dietoterapia-basal", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué tipo de dieta llevamos si no tenemos actividad y estamos en cama sin más enfermedad?", 
+      "intent": "dietoterapia-basal", 
+      "entities": []
+    }, 
+    {
+      "text": "dieta progresiva", 
+      "intent": "dietoterapia-progresiva", 
+      "entities": []
+    }, 
+    {
+      "text": "¿a qué se denomina dieta progresiva?", 
+      "intent": "dietoterapia-progresiva", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué es la dieta progresiva?", 
+      "intent": "dietoterapia-progresiva", 
+      "entities": []
+    }, 
+    {
+      "text": "falta de hierro", 
+      "intent": "metabolismo-anemia", 
+      "entities": []
+    }, 
+    {
+      "text": "anemia", 
+      "intent": "metabolismo-anemia", 
+      "entities": []
+    }, 
+    {
+      "text": "anemia ferropénica", 
+      "intent": "metabolismo-anemia", 
+      "entities": []
+    }, 
+    {
+      "text": "¿cuáles son las diferencias de falta de hierro y anemia en nuestro cuerpo? ", 
+      "intent": "metabolismo-anemia", 
+      "entities": []
+    }, 
+    {
+      "text": "¿cuáles son los síntomas de falta de hierro y anemia en nuestro cuerpo? ", 
+      "intent": "metabolismo-anemia", 
+      "entities": []
+    }, 
+    {
+      "text": "metabolismo", 
+      "intent": "metabolismo-catabolismo-anabolismo", 
+      "entities": []
+    }, 
+    {
+      "text": "anabolismo", 
+      "intent": "metabolismo-catabolismo-anabolismo", 
+      "entities": []
+    }, 
+    {
+      "text": "catabolismo", 
+      "intent": "metabolismo-catabolismo-anabolismo", 
+      "entities": []
+    }, 
+    {
+      "text": "Diferencia entre catabolismo y anabolismo", 
+      "intent": "metabolismo-catabolismo-anabolismo", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué es el metabolismo?", 
+      "intent": "metabolismo-catabolismo-anabolismo", 
+      "entities": []
+    }, 
+    {
+      "text": "enfermedad peritoneal", 
+      "intent": "enfermedad-peritoneal-peritonitis", 
+      "entities": []
+    }, 
+    {
+      "text": "peritonitis", 
+      "intent": "enfermedad-peritoneal-peritonitis", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué es la enfermedad peritoneal?", 
+      "intent": "enfermedad-peritoneal-peritonitis", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué es la peritonitis?", 
+      "intent": "enfermedad-peritoneal-peritonitis", 
+      "entities": []
+    }, 
+    {
+      "text": "peritoneo", 
+      "intent": "enfermedad-peritoneal-peritonitis", 
+      "entities": []
+    }, 
+    {
+      "text": "afecciones peritoneo", 
+      "intent": "enfermedad-peritoneal-peritonitis", 
+      "entities": []
+    }, 
+    {
+      "text": "ictericia", 
+      "intent": "ictericia-bilirrubina", 
+      "entities": []
+    }, 
+    {
+      "text": "aumento bilirrubina", 
+      "intent": "ictericia-bilirrubina", 
+      "entities": []
+    }, 
+    {
+      "text": "coloración amarilla", 
+      "intent": "ictericia-bilirrubina", 
+      "entities": []
+    }, 
+    {
+      "text": "amarillento", 
+      "intent": "ictericia-bilirrubina", 
+      "entities": []
+    }, 
+    {
+      "text": "¿cómo podemos prevenir la ictericia?", 
+      "intent": "ictericia-bilirrubina", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué es la ictericia?", 
+      "intent": "ictericia-bilirrubina", 
+      "entities": []
+    }, 
+    {
+      "text": "litiasis biliar", 
+      "intent": "calculos-litiasis-biliar", 
+      "entities": []
+    }, 
+    {
+      "text": "cálculos", 
+      "intent": "calculos-litiasis-biliar", 
+      "entities": []
+    }, 
+    {
+      "text": "piedras", 
+      "intent": "calculos-litiasis-biliar", 
+      "entities": []
+    }, 
+    {
+      "text": "obstrucción conductos biliares", 
+      "intent": "calculos-litiasis-biliar", 
+      "entities": []
+    }, 
+    {
+      "text": "piedras vesícula biliar", 
+      "intent": "calculos-litiasis-biliar", 
+      "entities": []
+    }, 
+    {
+      "text": "arenilla vesícula", 
+      "intent": "calculos-litiasis-biliar", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué es la litiasis biliar?", 
+      "intent": "calculos-litiasis-biliar", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué produce la litiasis biliar?", 
+      "intent": "calculos-litiasis-biliar", 
+      "entities": []
+    }, 
+    {
+      "text": "colesterol", 
+      "intent": "nutrientes-colesterol", 
+      "entities": []
+    }, 
+    {
+      "text": "huevos", 
+      "intent": "nutrientes-colesterol", 
+      "entities": []
+    }, 
+    {
+      "text": "dieta colesterol", 
+      "intent": "nutrientes-colesterol", 
+      "entities": []
+    }, 
+    {
+      "text": "alimentos colesterol", 
+      "intent": "nutrientes-colesterol", 
+      "entities": []
+    }, 
+    {
+      "text": "¿dónde se encuentra el colesterol? ", 
+      "intent": "nutrientes-colesterol", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué alimentos hay que evitar si tenemos hipercolesterolemia?", 
+      "intent": "nutrientes-colesterol", 
+      "entities": []
+    }, 
+    {
+      "text": "¿cuántos huevos se pueden comer a la semana sin riesgo de que suba el colesterol?", 
+      "intent": "nutrientes-colesterol", 
+      "entities": []
+    }, 
+    {
+      "text": "huevos y colesterol", 
+      "intent": "nutrientes-colesterol", 
+      "entities": []
+    }, 
+    {
+      "text": "cocina y colesterol", 
+      "intent": "nutrientes-colesterol", 
+      "entities": []
+    }, 
+    {
+      "text": "nutrientes", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "principios inmediatos", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "macro-nutrientes", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "micro-nutrientes", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿En qué alimentos están los glúcidos?", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "proteinas", 
+      "intent": "nutrientes-proteinas", 
+      "entities": []
+    }, 
+    {
+      "text": "lipidos", 
+      "intent": "nutrientes-lípidos", 
+      "entities": []
+    }, 
+    {
+      "text": "minerales", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "vitaminas", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "fuentes alimentarias", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué son los principios inmediatos? ", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿cuáles son las fuentes alimentarias de glúcidos?", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿según Atwater cuántas kcal tienen los lípidos?", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿cuáles son las principales fuentes? ", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué alimentos son ricos en proteínas? ", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿en qué alimentos encontramos más vitaminas y minerales?", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿qué equivalencia energética tienen los macronutrientes? ", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "equivalencia energética", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿según Atwater cuántas kcal tienen los glúcidos?", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "¿según Atwater cuántas kcal tienen los hidratos de carbono?", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "Según Atwater cuántas Kcal tienen las proteínas", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "número de Atwater", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "Kcal", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "kilocalorías", 
+      "intent": "nutrientes-principios-inmediatos", 
+      "entities": []
+    }, 
+    {
+      "text": "¡Hola!¡Buenos días!", 
+      "intent": "Greeting", 
+      "entities": []
+    }, 
+    {
+      "text": "¡Hola!", 
+      "intent": "Greeting", 
+      "entities": []
+    }, 
+    {
+      "text": "¡Buenas tardes!", 
+      "intent": "Greeting", 
+      "entities": []
+    }, 
+    {
+      "text": "¡Hola!", 
+      "intent": "Greeting", 
+      "entities": []
+    }, 
+    {
+      "text": "Ey", 
+      "intent": "Greeting", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Qué pasa?", 
+      "intent": "Greeting", 
+      "entities": []
+    }, 
+    {
+      "text": "¡Buenos días!", 
+      "intent": "Greeting", 
+      "entities": []
+    }, 
+    {
+      "text": "Tarde", 
+      "intent": "Greeting", 
+      "entities": []
+    }, 
+    {
+      "text": "¡Ey! Hola", 
+      "intent": "Greeting", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Estás aquí?", 
+      "intent": "Greeting", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Estás ahí?", 
+      "intent": "Greeting", 
+      "entities": []
+    }, 
+    {
+      "text": "¿Hay alguien?", 
+      "intent": "Greeting", 
+      "entities": []
+    }, 
+    {
+      "text": "¡Buenas noches!", 
+      "intent": "Greeting", 
+      "entities": []
+    }, 
+    {
+      "text": ":q", 
+      "intent": "None", 
+      "entities": []
+    }, 
+    {
+      "text": "ç", 
+      "intent": "None", 
+      "entities": []
+    }, 
+    {
+      "text": "a", 
+      "intent": "None", 
+      "entities": []
+    }, 
+    {
+      "text": "asd", 
+      "intent": "None", 
+      "entities": []
+    }, 
+    {
+      "text": "ui", 
+      "intent": "None", 
+      "entities": []
+    }, 
+    {
+      "text": "y", 
+      "intent": "None", 
+      "entities": []
+    }, 
+    {
+      "text": "f", 
+      "intent": "None", 
+      "entities": []
+    }, 
+    {
+      "text": "fsodg", 
+      "intent": "None", 
+      "entities": []
+    }, 
+    {
+      "text": "[a [b", 
+      "intent": "None", 
+      "entities": []
+    }, 
+    {
+      "text": "poo", 
+      "intent": "None", 
+      "entities": []
+    }, 
+    {
+      "text": "daadsdas", 
+      "intent": "None", 
+      "entities": []
+    }, 
+    {
+      "text": "gracias", 
+      "intent": "Thanking", 
+      "entities": []
+    }, 
+    {
+      "text": "gracias a ti", 
+      "intent": "Thanking", 
+      "entities": []
+    }, 
+    {
+      "text": "bien", 
+      "intent": "Thanking", 
+      "entities": []
+    }, 
+    {
+      "text": "qué bien", 
+      "intent": "Thanking", 
+      "entities": []
+    }, 
+    {
+      "text": "muy amable", 
+      "intent": "Thanking", 
+      "entities": []
+    }, 
+    {
+      "text": "fantastico, gracias", 
+      "intent": "Thanking", 
+      "entities": []
+    }, 
+    {
+      "text": "has sido de mucha utilidad, gracias", 
+      "intent": "Thanking", 
+      "entities": []
+    }, 
+    {
+      "text": "gracias por todo", 
+      "intent": "Thanking", 
+      "entities": []
+    }, 
+    {
+      "text": "gracias por tu ayuda", 
+      "intent": "Thanking", 
+      "entities": []
+    }, 
+    {
+      "text": "estoy muy agradecida", 
+      "intent": "Thanking", 
+      "entities": []
+    }, 
+    {
+      "text": "perfecto", 
+      "intent": "Thanking", 
+      "entities": []
+    }, 
+    {
+      "text": "cambie de idioma", 
+      "intent": "SelectLanguage", 
+      "entities": []
+    }, 
+    {
+      "text": "seleccione idioma", 
+      "intent": "SelectLanguage", 
+      "entities": []
+    }, 
+    {
+      "text": "sí", 
+      "intent": "Confirm", 
+      "entities": []
+    }, 
+    {
+      "text": "guay", 
+      "intent": "Confirm", 
+      "entities": []
+    }, 
+    {
+      "text": "conversación terminada", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "te dejo", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "adiós", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "me voy", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "paro la conversación", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "fin del chat", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "salgo", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "sal del chat", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "adiós robot", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "nueva conversación", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "me marcho", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "abandono", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "lo dejo", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "terminado", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "finalizado", 
+      "intent": "EndConversation", 
+      "entities": []
+    }, 
+    {
+      "text": "suena bien", 
+      "intent": "Confirm", 
+      "entities": []
+    }
+  ], 
+  "entities": [], 
+  "bing_entities": [
+    "number", 
+    "geography"
+  ], 
+  "actions": [], 
+  "closedLists": [], 
+  "culture": "es-es", 
+  "regex_features": [], 
+  "model_features": [], 
+  "composites": [], 
+  "luis_schema_version": "1.3.0", 
+  "desc": "tecnicasenfermeriaelejidobot"
+}

@@ -1,0 +1,6 @@
+.idea
+node_modules
+
+# Platform specific - Mac OSX
+.DS_Store
+
